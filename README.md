@@ -9,4 +9,5 @@ It was built as a practical exercise in pure HTML5 (no CSS or JavaScript).
 - **media.html** — Responsive images, audio, and video with captions.
 - **extras.html** — Tables, `<details>`, `<dialog>`, `<progress>`, `<meter>`.
 
-
+## Live Demo
+- 🌐 **GitHub Pages:** https://username.github.io/html5-practical/

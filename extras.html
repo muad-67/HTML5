@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extras and Interactive Elements</title>
+  <meta name="description" content="HTML5 extras: tables, quotes, code, details, dialog, progress, and meter.">
+  <link rel="canonical" href="https://username.github.io/html5-practical/extras.html">
+</head>
+<body>
+  
+
+  <header>
+    <h1>Extras and Interactive Elements</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section>
+        <h2>Table Example</h2>
+        <table>
+          <caption>HTML5 Feature Support</caption>
+          <thead>
+            <tr>
+              <th scope="col">Feature</th>
+              <th scope="col">Supported</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Audio</th>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <th scope="row">Video</th>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Data collected as of <time datetime="2025-09-11">Sept 17, 2025</time></td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section>
+        <h2>Blockquote Example</h2>
+        <blockquote cite="https://www.w3.org/TR/html52/">
+          <p>“HTML is the standard markup language for documents designed to be displayed in a web browser.”</p>
+          <footer>— W3C HTML5 Specification</footer>
+        </blockquote>
+      </section>
+
+      <section>
+        <h2>Interactive Elements</h2>
+        <details>
+          <summary>Click to reveal more information</summary>
+          <p>This is revealed without any JavaScript.</p>
+        </details>
+
+        <dialog open>
+          <p>This is an open dialog box example.</p>
+        </dialog>
+
+        <p>Progress: <progress value="70" max="100">70%</progress></p>
+        <p>Storage used: <meter value="0.6">60%</meter></p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Student Name.</p>
+  </footer>
+</body>
+</html>

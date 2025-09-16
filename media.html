@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Demonstration</title>
+  <meta name="description" content="Examples of HTML5 media: responsive images, audio, and video with captions.">
+  <link rel="canonical" href="https://username.github.io/html5-practical/media.html">
+</head>
+<body>
+  
+
+  <header>
+    <h1>Media Demonstration</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <img src="assets/javier-trueba-iQPr1XkF5F0-unsplash.jpg" 
+    alt="Sample hero image"
+    width="600" />
+
+
+    
+    <article>
+      <section>
+        <h2>Responsive Image</h2>
+        <figure>
+          <picture>
+            <source srcset="assets/images/hero-large.jpg" media="(min-width: 1000px)">
+            <source srcset="assets/images/hero-medium.jpg" media="(min-width: 600px)">
+            <img src="assets/images/hero-small.jpg" alt="Sample responsive hero image">
+          </picture>
+          <figcaption>A responsive image that changes with screen size.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Audio Example</h2>
+        <audio controls>
+          <source src="education-university-school-background-music-390034.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section>
+        <h2>Video Example </h2>
+        
+      <video controls width="480">
+          <source src="14372057_3840_2160_60fps 2.mp4" type="video/mp4">
+          <source src="assets/video/sample.webm" type="video/webm">
+          <track src="assets/captions/sample.vtt" kind="subtitles" srclang="en" label="English">
+          Your browser does not support the video tag.
+        </video>
+        </video>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Student Name.</p>
+  </footer>
+</body>
+</html>
